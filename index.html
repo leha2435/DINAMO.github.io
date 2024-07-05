@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DINАМО</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./js/script.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__nav">
+            <a href="/">
+              <img
+                src="./images/logo-dinamo.svg"
+                alt="Логотип Динамо грузинское быстро"
+              />
+            </a>
+            <ul class="header__menu">
+              <li>
+                <a class="link" href="#"
+                  ><p class="text-nav_header">главная</p></a
+                >
+              </li>
+              <li>
+                <a class="link" href="#menu"
+                  ><p class="text-nav_header">меню</p></a
+                >
+              </li>
+              <li>
+                <a class="link" href="#delivery"
+                  ><p class="text-nav_header">доставка</p></a
+                >
+              </li>
+              <li>
+                <a class="link" href="#contact"
+                  ><p class="text-nav_header">контакты</p></a
+                >
+              </li>
+              <li>
+                <a class="link" href="#promotion"
+                  ><p class="text-nav_header">акции</p></a
+                >
+              </li>
+            </ul>
+            <ul class="header__number">
+              <li class="header_numb_box">
+                <a class="link-numb link" href="#">
+                  <svg
+                    class="link"
+                    width="20"
+                    height="20"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.4557 14.678L16.6646 11.8869C15.6678 10.8901 13.9732 11.2889 13.5745 12.5847C13.2754 13.4819 12.2786 13.9803 11.3815 13.7809C9.3879 13.2825 6.69652 10.6908 6.19812 8.59746C5.89907 7.70029 6.49716 6.70349 7.39428 6.40448C8.69013 6.00576 9.08886 4.31119 8.09205 3.31438L5.30099 0.523324C4.50354 -0.174441 3.30738 -0.174441 2.60961 0.523324L0.715678 2.41726C-1.17826 4.41087 0.915039 9.69395 5.60003 14.3789C10.285 19.0639 15.5681 21.2569 17.5617 19.2633L19.4557 17.3694C20.1535 16.5719 20.1535 15.3757 19.4557 14.678Z"
+                    />
+                  </svg>
+                  <p class="txt-numb_header link">+380 (98) 765 43 21</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="header__social">
+              <li>
+                <a class="link" href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.0703 0H2.92969C1.31439 0 0 1.31439 0 2.92969V17.0703C0 18.6856 1.31439 20 2.92969 20H17.0703C18.6856 20 20 18.6856 20 17.0703V2.92969C20 1.31439 18.6856 0 17.0703 0ZM10.0391 15.2344C7.1312 15.2344 4.76562 12.8688 4.76562 9.96094C4.76562 7.05307 7.1312 4.6875 10.0391 4.6875C12.9469 4.6875 15.3125 7.05307 15.3125 9.96094C15.3125 12.8688 12.9469 15.2344 10.0391 15.2344ZM15.8984 5.85938C14.9292 5.85938 14.1406 5.0708 14.1406 4.10156C14.1406 3.13232 14.9292 2.34375 15.8984 2.34375C16.8677 2.34375 17.6562 3.13232 17.6562 4.10156C17.6562 5.0708 16.8677 5.85938 15.8984 5.85938Z"
+                    />
+                    <path
+                      d="M15.8984 3.51562C15.5751 3.51562 15.3125 3.77823 15.3125 4.10156C15.3125 4.4249 15.5751 4.6875 15.8984 4.6875C16.2218 4.6875 16.4844 4.4249 16.4844 4.10156C16.4844 3.77823 16.2218 3.51562 15.8984 3.51562Z"
+                    />
+                    <path
+                      d="M10.0391 5.85938C7.77771 5.85938 5.9375 7.69958 5.9375 9.96094C5.9375 12.2223 7.77771 14.0625 10.0391 14.0625C12.3004 14.0625 14.1406 12.2223 14.1406 9.96094C14.1406 7.69958 12.3004 5.85938 10.0391 5.85938Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M17.0703 0H2.92969C1.31439 0 0 1.31439 0
+                    2.92969V17.0703C0 18.6856 1.31439 20 2.92969
+                    20H8.82812V12.9297H6.48438V9.41406H8.82812V7.03125C8.82812
+                    5.09262 10.4051 3.51562 12.3438
+                    3.51562H15.8984V7.03125H12.3438V9.41406H15.8984L15.3125
+                    12.9297H12.3438V20H17.0703C18.6856 20 20 18.6856 20
+                    17.0703V2.92969C20 1.31439 18.6856 0 17.0703 0Z"" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7.4614 18.2049C6.59653 18.2049 5.70633 18.1349
+                    4.81079 17.9945C3.23349 17.747 1.63681 16.9219 1.185
+                    16.6749L0 16.027L1.28296 15.6051C2.68539 15.144 3.53851
+                    14.8579 4.59457 14.4099C3.53714 13.8978 2.72217 12.9766
+                    2.32986 11.7858L2.0314 10.8798L2.27615 10.9172C2.04407
+                    10.6832 1.86081 10.4458 1.71875 10.2299C1.21353 9.46253
+                    0.946045 8.52488 1.00296 7.72135L1.05911 6.93049L1.53259
+                    7.1139C1.33286 6.7367 1.18851 6.33387 1.10367
+                    5.91166C0.896912 4.882 1.06995 3.78809 1.59103
+                    2.83152L2.00348 2.07438L2.55508 2.73692C4.29962 4.83256
+                    6.50925 6.07569 9.13177 6.43961C9.02466 5.70124 9.10492
+                    4.98866 9.37057 4.34992C9.67987 3.60621 10.2301 2.97556
+                    10.9613 2.52604C11.7734 2.02692 12.7582 1.78507 13.7343
+                    1.84504C14.7699 1.90867 15.7101 2.2967 16.4569
+                    2.96793C16.8216 2.87318 17.0903 2.77201 17.4535
+                    2.63529C17.672 2.55305 17.9198 2.45966 18.2298
+                    2.35285L19.3724 1.95918L18.6273 4.08717C18.6765 4.08305
+                    18.7271 4.07954 18.7801 4.07725L20.0002 4.02201L19.279
+                    5.00758C19.2377 5.06403 19.2271 5.08006 19.2125
+                    5.10218C19.1544 5.18977 19.082 5.29871 18.0922
+                    6.62043C17.8444 6.95139 17.7206 7.38245 17.7437
+                    7.83442C17.8314 9.55195 17.6207 11.1059 17.117
+                    12.4529C16.6406 13.7274 15.9024 14.8208 14.9231
+                    15.7029C13.7112 16.7942 12.166 17.5415 10.33 17.9235C9.42947
+                    18.1109 8.46237 18.2049 7.4614 18.2049Z" " />
+                  </svg></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero-section">
+        <div class="container">
+          <div class="hero-menu-section">
+            <h1 class="hero-section__title">
+              Попробуй лучшую <span class="text-brand">грузинскую</span> кухню.
+            </h1>
+            <h2 class="hero-secondary-text">
+              В нашем ресторане Вы найдете лучшие блюда приготвленные по
+              старинным рецептам грузинской кухни. Потрясающий вкус блюд
+              перенесет Вас к атмосферу невероятного Тбилисси не выходя из дома.
+            </h2>
+            <a href="#menu" style="text-decoration: none">
+              <button class="hero-button button" type="button">
+                ПЕРЕЙТИ К МЕНЮ
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="taste-section">
+        <div class="container">
+          <div class="taste-sec">
+            <h1 class="taste-hero-text">Попробуйте на вкус</h1>
+            <div class="taste-box">
+              <p class="taste-sec-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                pretium netus urna hendrerit convallis aliquam consequat turpis.
+              </p>
+            </div>
+            <div class="dishes-sections">
+              <ul class="dishes-list">
+                <li class="dishes-elipse">
+                  <img
+                    class="svg-ellipse-redact"
+                    src="./images/Ellipse 1 (1).svg"
+                    alt=""
+                  />
+                  <p class="text-elips-redact-lag">
+                    Здесь будет какой то текст, возможно назване блюда
+                  </p>
+                </li>
+                <li class="hinkali-elipse">
+                  <img src="./images/hinkali-ellipse.svg" alt="" />
+                  <p class="text-elips-redact">
+                    Здесь будет какой то текст, возможно назване блюда
+                  </p>
+                </li>
+                <li class="stew-ellipse">
+                  <img src="./images/stew-ellipse.svg" alt="" />
+                  <p class="text-elips-redact">
+                    Здесь будет какой то текст, возможно назване блюда
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <a href="#delivery">
+              <button class="button button-dishes" type="button">
+                ПЕРЕЙТИ К ДОСТАВКЕ
+              </button></a
+            >
+            <h2 class="taste-hero-text">Меню</h2>
+            <div id="menu" class="taste-box">
+              <p class="taste-sec-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                pretium netus urna hendrerit convallis aliquam consequat turpis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img
+            loading="lazy"
+            src="./images/tomat-head.png"
+            alt=""
+            class="tomat-head"
+          />
+          <img
+            loading="lazy"
+            src="./images/smak-grass.png"
+            alt=""
+            class="grass-bg"
+          />
+          <img
+            loading="lazy"
+            src="./images/oin-mute.png"
+            alt=""
+            class="onion-bg"
+          />
+          <img
+            loading="lazy"
+            src="./images/tomat_back-slide.png"
+            alt=""
+            class="tomato"
+          />
+        </div>
+        <div class="slider-box-section">
+          <div id="slider-container">
+            <div id="slider">
+              <div class="hover-effect-btn">
+                <img class="slide" src="./images/салаты.svg" alt="Image 1" />
+                <h3 class="title">Салаты</h3>
+                <div class="overlay"></div>
+                <div>
+                  <button
+                    id="openModalButton"
+                    class="button1 openModal"
+                    type="button"
+                    style="color: white"
+                  >
+                    ОТКРЫТЬ МЕНЮ
+                  </button>
+                </div>
+              </div>
+              <div class="hover-effect-btn">
+                <img class="slide" src="./images/выпечка.svg" alt="Image 2" />
+                <h3 class="title">Выпечка</h3>
+                <div class="overlay"></div>
+                <button
+                  id="openModalButton"
+                  class="button1 openModal"
+                  type="button"
+                  style="color: white"
+                >
+                  ОТКРЫТЬ МЕНЮ
+                </button>
+              </div>
+              <div class="hover-effect-btn">
+                <img class="slide" src="./images/супы.svg" alt="Image 3" />
+                <h3 class="title">Супы</h3>
+                <div class="overlay"></div>
+                <button
+                  id="openModalButton"
+                  class="button1 openModal"
+                  type="button"
+                  style="color: white"
+                >
+                  ОТКРЫТЬ МЕНЮ
+                </button>
+              </div>
+              <div class="hover-effect-btn">
+                <img
+                  class="slide"
+                  src="./images/блюда на мангале.svg"
+                  alt="Image 4"
+                />
+                <h3 class="title">Блюда на мангале</h3>
+                <div class="overlay"></div>
+                <div>
+                  <button
+                    id="openModalButton"
+                    class="button1 openModal"
+                    type="button"
+                    style="color: white"
+                  >
+                    ОТКРЫТЬ МЕНЮ
+                  </button>
+                </div>
+              </div>
+              <div class="hover-effect-btn">
+                <img
+                  class="slide"
+                  src="./images/горячие блюда.svg"
+                  alt="Image 5"
+                />
+                <h3 class="title">Горячие блюда</h3>
+                <div class="overlay"></div>
+                <div>
+                  <button
+                    id="openModalButton"
+                    class="button1 openModal"
+                    type="button"
+                    style="color: white"
+                  >
+                    ОТКРЫТЬ МЕНЮ
+                  </button>
+                </div>
+              </div>
+              <div class="hover-effect-btn">
+                <img class="slide" src="./images/соусы.svg" alt="Image 6" />
+                <h3 class="title">Соусы</h3>
+                <div class="overlay"></div>
+                <div>
+                  <button
+                    id="openModalButton"
+                    class="button1 openModal"
+                    type="button"
+                    style="color: white"
+                  >
+                    ОТКРЫТЬ МЕНЮ
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="arrow prev" onclick="prevSlide()">
+              <img src="./images/left arrow.svg" alt="" />
+            </div>
+            <div class="arrow next" onclick="nextSlide()">
+              <img src="./images/right arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background-sec">
+        <div class="delivery-section">
+          <img loading="lazy" src="./images/chery.png" alt="" class="chery" />
+          <img loading="lazy" src="./images/zelen1.png" alt="" class="zelen1" />
+          <div class="container">
+            <div id="delivery" class="delivery-methods">
+              <h1 class="delivery-hero-text">Удобные способы доставки</h1>
+              <div class="delivery-box">
+                <p class="delivery-sec-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pretium netus urna hendrerit convallis aliquam
+                  consequat turpis.
+                </p>
+              </div>
+              <div class="delivery-list">
+                <ul class="ul-list-dev">
+                  <li class="delivery_list">
+                    <img src="./images/delivery-dinamo.svg" alt="" />
+                    <p class="text-delivery">
+                      Доставка при помощи наших курьеров при заказе от 1000 грн
+                    </p>
+                  </li>
+                  <li class="delivery_list">
+                    <img src="./images/delivery-point.svg" alt="" />
+                    <p class="text-delivery">
+                      Доставка при помощи сервиса по оставке еды и лальше по
+                      тексту
+                    </p>
+                  </li>
+                  <li class="delivery_list">
+                    <img src="./images/delivery-club.svg" alt="" />
+                    <p class="text-delivery">
+                      Доставка при помощи сервиса по оставке еды и лальше по
+                      тексту
+                    </p>
+                  </li>
+                </ul>
+                <img
+                  src="./images/georgian-stew-chakapuli-veal-with-estragon-persimmon 1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-section">
+          <img
+            loading="lazy"
+            src="./images/pomidores.png"
+            alt=""
+            class="tomato1"
+          />
+          <div id="promotion" class="food-galerry-section">
+            <div class="gallery-container">
+              <div class="ul-gl-li">
+                <div class="img-list red">
+                  <img src="./images/galery-img1.svg" alt="" />
+                </div>
+                <div class="img-list red">
+                  <img src="./images/galery-img2.svg" alt="" />
+                </div>
+                <div class="img-list red">
+                  <img src="./images/galery-img3.svg" alt="" />
+                </div>
+                <div class="img-list red">
+                  <img src="./images/galery-img4.svg" alt="" />
+                </div>
+                <div class="img-list">
+                  <img src="./images/galery-img5.svg" alt="" />
+                </div>
+                <div class="img-list">
+                  <img src="./images/gal6.svg" alt="" />
+                </div>
+                <div class="img-list">
+                  <img src="./images/gal7.svg" alt="" />
+                </div>
+                <div class="img-list">
+                  <img src="./images/gal8.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img loading="lazy" src="./images/zlen.png" alt="" class="grass" />
+      </div>
+    </main>
+    <footer class="footer">
+      <div id="contact" class="footer-container">
+        <div class="info-li">
+          <ul class="info-list">
+            <li class="list-contact">
+              <div style="margin: 37px 94px 37px 94px">
+                <a href="">
+                  <img src="./images/logo-dinamo.svg" alt="logo-dinamo"
+                /></a>
+              </div>
+              <img class="rectangle" src="./images/Rectangle 16.svg" alt="" />
+            </li>
+            <li class="list-contact">
+              <p
+                class="txt-numb_header"
+                style="
+                  margin: 60px 10px 56px 61px;
+                  width: 207.4px;
+                  height: 26px;
+                "
+              >
+                <a href="" style="text-decoration: none; color: white">
+                  +380 (98) 765 43 21</a
+                >
+              </p>
+              <div>
+                <a href="">
+                  <img
+                    src="./images/telegram-vector.svg"
+                    alt=""
+                    style="margin: 61px 10px 60px 10px; width: 20px"
+                /></a>
+              </div>
+              <div>
+                <a href="">
+                  <img
+                    src="./images/viber-mob 1.svg"
+                    alt=""
+                    style="margin: 61px 10px 0px 0px; width: 20px"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img
+                    src="./images/whatsapp-mob 1.svg"
+                    alt=""
+                    style="margin: 61px 62px 0px 0px"
+                  />
+                </a>
+              </div>
+              <img
+                class="rectangle"
+                src="./images/Rectangle 16.svg"
+                alt=""
+                style="margin: 35px 77px 35px 0px"
+              />
+            </li>
+            <li class="list-contact">
+              <p class="text-footer" style="margin: 53px 77px 0px 0px">
+                г. Киев, станция метро “Крещатик”
+              </p>
+              <img
+                class="rectangle"
+                src="./images/Rectangle 16.svg"
+                alt=""
+                style="margin: 35px 0px 35px 0px"
+              />
+            </li>
+            <li class="list-contact">
+              <p class="text-footer" style="margin: 61px 0px 35px 77px">
+                Email: mail@mal.ua
+              </p>
+            </li>
+            <li class="list-contact">
+              <p class="text-footer" style="margin: 0px 30px 0px 100px">
+                <a href="" style="text-decoration: none; color: white">
+                  Политика конфиденциальности
+                </a>
+              </p>
+            </li>
+            <li class="list-contact">
+              <p class="text-footer" style="margin-right: 382px">
+                <a href="" style="text-decoration: none; color: white">
+                  Пользовательское соглашение
+                </a>
+              </p>
+            </li>
+            <li class="list-contact">
+              <p class="text-footer">
+                Динамо. Грузинское бистро. Все права защищены, 2021
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close"></span>
+        <div style="gap: 30.5px; display: flex">
+          <img src="./images/Rectangle 25.jpg" alt="" style="width: 272.5px" />
+          <img src="./images/Rectangle 26.jpg" alt="" style="width: 272.5px" />
+          <img src="./images/Rectangle 27.jpg" alt="" style="width: 272.5px" />
+          <img src="./images/Rectangle 28.jpg" alt="" style="width: 272.5px" />
+        </div>
+        <h1
+          class="hero-title"
+          style="text-align: center; padding: 30px 0px 34px 0px"
+        >
+          Холодные закуски
+        </h1>
+        <div class="info-menu">
+          <ul
+            style="
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 19px;
+              width: 765px;
+            "
+          >
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+          </ul>
+          <ul
+            style="
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 19px;
+              width: 765px;
+              justify-content: center;
+            "
+          >
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+            <li class="menu-list">
+              <p class="text-span" style="margin: 0px 319px 10px 0px">
+                Сациви из курицы
+              </p>
+              <p class="text-span" style="margin-top: 0px">390 грн</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">200гр</p>
+              <p class="text-sml" style="margin: 0px 26px 5px 0px">
+                КБЖУ: 320/16/27/4
+              </p>
+              <p class="text-sml1" style="width: 399px">
+                Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г;
+                уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу;
+                хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div style="gap: 30.5px; display: flex">
+          <img src="./images/Rectangle 29.jpg" alt="" />
+          <img src="./images/Rectangle 30.jpg" alt="" />
+          <img src="./images/Rectangle 31.jpg" alt="" />
+          <img src="./images/Rectangle 32.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <script>
+      const slider = document.getElementById("slider");
+      let slideIndex = 2;
+
+      function nextSlide() {
+        slideIndex += 2;
+        updateSlider();
+      }
+
+      function prevSlide() {
+        slideIndex -= 2;
+        updateSlider();
+      }
+
+      function updateSlider() {
+        if (slideIndex >= 6) {
+          slideIndex = 0;
+        } else if (slideIndex < 0) {
+          slideIndex = 4;
+        }
+        const offset = -slideIndex * 310;
+        slider.style.transform = `translateX(${offset}px)`;
+      }
+      updateSlider();
+    </script>
+    <script>
+      // Получаем кнопку и модальное окно
+      var openModalButton = document.getElementById("openModalButton");
+      var modal = document.getElementById("myModal");
+
+      // При нажатии на кнопку, открываем модальное окно
+      openModalButton.addEventListener("click", function () {
+        modal.style.display = "block";
+        // После открытия модального окна, устанавливаем фокус на него
+        modal.focus();
+      });
+
+      // При нажатии на крестик, закрываем модальное окно
+      document
+        .getElementsByClassName("close")[0]
+        .addEventListener("click", function () {
+          modal.style.display = "none";
+        });
+
+      // При нажатии на кнопку Esc, закрываем модальное окно
+      window.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          modal.style.display = "none";
+        }
+      });
+
+      // При клике за пределами модального окна, закрываем его
+      window.addEventListener("click", function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      });
+    </script>
+    <script>
+      // Получить кнопки
+      var modalBtns = document.getElementsByClassName("openModal");
+
+      // Получить модальное окно
+      var modal = document.getElementById("myModal");
+
+      // Получить элемент для закрытия модального окна
+      var closeBtn = document.getElementsByClassName("close")[0];
+
+      // Привязать обработчики событий к каждой кнопке
+      for (var i = 0; i < modalBtns.length; i++) {
+        modalBtns[i].addEventListener("click", function () {
+          modal.style.display = "block";
+        });
+      }
+      // Получаем все кнопки для открытия модального окна
+      var openModalButtons = document.querySelectorAll(".openModalButton");
+
+      // Получаем модальное окно
+      var modal = document.getElementById("myModal");
+
+      // При нажатии на любую из кнопок, открываем модальное окно
+      openModalButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          modal.style.display = "block";
+          // После открытия модального окна, устанавливаем фокус на него
+          modal.focus();
+        });
+      });
+
+      // При нажатии на крестик, закрываем модальное окно
+      document
+        .getElementsByClassName("close")[0]
+        .addEventListener("click", function () {
+          modal.style.display = "none";
+        });
+
+      window.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          modal.style.display = "none";
+        }
+      });
+
+      window.addEventListener("click", function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      });
+
+      var modalLinks = document.querySelectorAll(".modal-content a");
+
+      modalLinks.forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+          // Дополнительный код, который вы хотите выполнить при нажатии на ссылку
+        });
+      });
+    </script>
+  </body>
+</html>
